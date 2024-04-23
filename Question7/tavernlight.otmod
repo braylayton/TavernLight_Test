@@ -1,0 +1,9 @@
+Module
+  name: client_tavernlight
+  description: UI for tavernlight test
+  author: Brayden
+  website: https://github.com/edubart/otclient
+  sandboxed: true
+  scripts: [ tavernlight]
+  @onLoad: init()
+  @onUnload: terminate()

@@ -1,0 +1,12 @@
+MainWindow
+  id: tavernlightWindow
+  size: 450 450
+  !text: tr('Tavernlight Test')
+
+  @onEscape: modules.client_tavernlight.hide()
+
+  Button
+    id: jumpButton
+    !text: tr('Jump!')
+    width: 64
+    @onClick: modules.client_tavernlight.restart()
